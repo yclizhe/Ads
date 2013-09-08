@@ -1,0 +1,468 @@
+package com.renrengame.bigdata.util;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.io.Serializable;
+import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+
+/**
+ * This class contains the data structure that are necessary for constructing a
+ * log analytics reporter.
+ * 
+ * @author hadoop
+ * 
+ */
+public class Reporter implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * Tell you how to use the class
+	 */
+	public static void main(String[] args) throws IOException {
+		// 1 Read DataHeader(Including variables and states)
+		DataHeader header = new DataHeader(
+				new String[] { "Value/2012/11/16/00/part-r-00000" });
+		// 2 Extract the three categories variables from header
+		Variable classVar = header.findClassVariable();
+		ArrayList<Variable> appVars = header.findAppVariables();
+		ArrayList<Variable> adVars = header.findAdVariables();
+		
+		// constrCopyOfReporterreporter. TCopyOfReporterter constructor automatically build
+		// the containers for containing the empirical counts needed.
+		Reporter rep = new Reporter(classVar, appVars, adVars);
+
+		// add new observation to update the reporter
+		rep.addObservations("Statistics/2012/11/16/00/part-r-00000");
+
+		//rep.output();
+		rep.saveAsCSV("C:/Users/Administrator/Desktop/tmp/test");
+	}
+
+	/**
+	 * SupCopyOfReporter input argument dir is "/home/hadoop/LogAnalytics/20121103-20121201"
+	 * @param dir
+	 * @return
+	 * @throws IOException
+	 */
+	public static Reporter getReporter(String dir) throws IOException {
+		String statDir = dir + "Statistics/";
+		String valueDir = dir + "Values/";
+		//Get all the string list of all aggregated statistics
+	    String[] statFiles = (new File(statDir)).list();
+	    String[] valueFiles = (new File(valueDir)).list();
+	    if (statFiles == null || valueFiles == null) {
+	    	System.out.println("Plz Check Status of " + statDir + " or " + valueDir);
+	    	System.exit(1);   
+	    	} else {
+	    	for(int i = 0; i<statFiles.length; i++){
+	    		statFiles[i] = statDir + statFiles[i];
+	    	}
+	    	for(int j = 0; j<valueFiles.length; j++){
+	    		valueFiles[j] = valueDir + valueFiles[j];
+	    	}
+	    }
+		//Read DataHeader(Including variables and states)
+		DataHeader header = new DataHeader(valueFiles);
+		// 2 Extract the three categories variables from header
+		Variable classVar = header.findClassVariable();
+		ArrayList<Variable> appVars = header.findAppVariables();
+		ArrayList<Variable> adVars = header.findAdVariables();
+
+		// construct the reporter. The reporter constructor automatically build
+		// the containers for containing the empirical counts needed.
+		Reporter rep = new Reporter(classVar, appVars, adVars);
+
+		// add new observation to update the reporter
+		for(int j = 0; j<statFiles.length; j++){
+			rep.addObservations(statFiles[j]);
+		}
+				
+		return rep;	
+	}
+
+	private static int[] _start = new int[4];
+
+	public static void setStart(int year, int month, int day, int hour) {
+		_start[0] = year;
+		_start[1] = month;
+		_start[2] = day;
+		_start[3] = hour;
+	}
+
+	private static int[] _end = new int[4];
+
+	public static void setEnd(int year, int month, int day, int hour) {
+		_end[0] = year;
+		_end[1] = month;
+		_end[2] = day;
+		_end[3] = hour;
+	}
+
+	/**
+	 * There is only one classVar, in our case, it is named "label" consisting
+	 * of two values.
+	 */
+	protected Variable _classVar = null;
+
+	/**
+	 * The vars of app related variables
+	 */
+	protected ArrayList<Variable> _appVars = null;
+
+	/**
+	 * The vars of ad related variables
+	 */
+	protected ArrayList<Variable> _adVars = null;
+
+	/**
+	 * The empirical count of the class variable.
+	 */
+	protected Function1D _classEmpiricalCounts = null;
+
+	/**
+	 * All the empirical count of <class,Either a ad var/or a app var>
+	 */
+	protected ArrayList<Function2D> _classOneVarCounts = null;
+
+	/**
+	 * All the empirical count of <class, a ad var, a app var>
+	 */
+	protected ArrayList<Function3D> _classTwoVarCounts = null;
+
+	public Reporter(Variable classVar, ArrayList<Variable> appVars,
+			ArrayList<Variable> adVars) {
+		_classVar = classVar;
+		_appVars = appVars;
+		_adVars = adVars;
+
+		_classEmpiricalCounts = new Function1D(_classVar);
+
+		_classOneVarCounts = new ArrayList<Function2D>();
+		for (Variable var : _appVars) {
+			_classOneVarCounts.add(new Function2D(_classVar, var));
+		}
+		for (Variable var : _adVars) {
+			_classOneVarCounts.add(new Function2D(_classVar, var));
+		}
+
+		_classTwoVarCounts = new ArrayList<Function3D>();
+		for (Variable appVar : _appVars)
+			for (Variable adVar : _adVars) {
+				_classTwoVarCounts.add(new Function3D(appVar, adVar));
+			}
+	}
+	
+	public Reporter(Reporter reporter) {
+		this._adVars = reporter._adVars;
+		this._appVars = reporter._appVars;
+		this._classVar = reporter._classVar;
+		this._classEmpiricalCounts = reporter._classEmpiricalCounts;
+		this._classOneVarCounts = reporter._classOneVarCounts;
+		this._classTwoVarCounts = reporter._classTwoVarCounts;
+	}
+	
+
+	/**
+	 * Return the corresponding 2-d function in the arraylist. Return null if
+	 * there does not exist such one.
+	 * 
+	 * @param firstVarName
+	 * @param secondVarName
+	 * @return
+	 */
+	protected Function2D function2DFinder(String firstVarName,
+			String secondVarName) {
+		Function2D func = null;
+		for (Function2D f : _classOneVarCounts) {
+			if (firstVarName.equals(f._x.getName())
+					&& secondVarName.equals(f._y.getName())) {
+				func = f;
+				break;
+			}
+		}
+		return func;
+	}
+
+	/**
+	 * Return the corresponding 3-d function in the arraylist. Return null if
+	 * there does not exist such one.
+	 * 
+	 * @param XVarName
+	 * @param YVarName
+	 * @return
+	 */
+	protected Function3D function3DFinder(String XVarName, String YVarName) {
+		Function3D func = null;
+		for (Function3D f : _classTwoVarCounts) {
+			if (XVarName.equals(f._f0._x.getName())
+					&& YVarName.equals(f._f0._y.getName())) {
+				func = f;
+				break;
+			}
+		}
+		return func;
+	}
+
+	/**
+	 * Output all the mutual information to fileName1 and conditional MIs to fileName2 from the reporter.
+	 * @throws FileNotFoundException 
+	 * @throws UnsupportedEncodingException 
+	 */
+	public void outputMIs(String fileName1, String fileName2) throws UnsupportedEncodingException, FileNotFoundException{
+
+		PrintWriter out1 = new PrintWriter(new BufferedWriter(new OutputStreamWriter(
+				new FileOutputStream(fileName1), "UTF8")));
+		PrintWriter out2 = new PrintWriter(new BufferedWriter(new OutputStreamWriter(
+				new FileOutputStream(fileName2), "UTF8")));
+		
+		for (Function2D func : _classOneVarCounts) {
+			out1.print(func._x.getName());
+			out1.print(",");
+			out1.print(func._y.getName());
+			out1.print(",");
+			out1.println(func.computeMI());
+		}
+		out1.flush();
+		out1.close();
+		
+		for (Function3D func : _classTwoVarCounts) {
+			out2.print(func._f0._x.getName());
+			out2.print(",");
+			out2.print(func._f0._y.getName());
+			out2.print(",");
+			out2.println(func.computeCMI());
+		}
+		out2.flush();
+		out2.close();
+	}
+	
+	/**
+	 * Output all the normalized mutual information to fileName1 and conditional NMIs to fileName2 from the reporter.
+	 * @throws FileNotFoundException 
+	 * @throws UnsupportedEncodingException 
+	 */
+	public void outputNMIs(String fileName1, String fileName2) throws UnsupportedEncodingException, FileNotFoundException{
+
+		PrintWriter out1 = new PrintWriter(new BufferedWriter(new OutputStreamWriter(
+				new FileOutputStream(fileName1), "UTF8")));
+		PrintWriter out2 = new PrintWriter(new BufferedWriter(new OutputStreamWriter(
+				new FileOutputStream(fileName2), "UTF8")));
+		
+		for (Function2D func : _classOneVarCounts) {
+			out1.print(func._x.getName());
+			out1.print(",");
+			out1.print(func._y.getName());
+			out1.print(",");
+			out1.println(func.computeNMI());
+		}
+		out1.flush();
+		out1.close();
+		
+		for (Function3D func : _classTwoVarCounts) {
+			out2.print(func._f0._x.getName());
+			out2.print(",");
+			out2.print(func._f0._y.getName());
+			out2.print(",");
+			out2.println(func.computeCNMI());
+		}
+		out2.flush();
+		out2.close();
+	}
+
+	/**
+	 * Output to System.out
+	 */
+	public void output() {
+		System.out.println(_classEmpiricalCounts);
+
+		for (Function2D func : _classOneVarCounts) {
+			System.out.println(func);
+			System.out.println("MI is: " + func.computeMI());
+		}
+
+		for (Function3D func : _classTwoVarCounts) {
+			System.out.println(func);
+			System.out.println("CMI is: " + func.computeCMI());
+		}
+	}
+
+	/**
+	 * Output as CSV file to the destination directory. Also the Mutual
+	 * information.
+	 * 
+	 * @param Destination for example 
+	 */
+	public void saveAsCSV(String destination) throws FileNotFoundException,
+			UnsupportedEncodingException {
+		// Step 1: Check if the destination do exist;
+		File file = new File(destination);
+		boolean exists = file.exists();
+		if (!exists) {
+			boolean success = file.mkdir();
+			if (!success) {
+				System.out.println("Fail to Create Output Directory!");
+				System.exit(1);
+			}
+		}
+
+		if (!(new File(destination+"/single")).exists()) {
+			boolean success = (new File(destination+"/single")).mkdir();
+			if (!success) {
+				System.out.println("Fail to Create Output Single Directory!");
+				System.exit(1);
+			}
+		}
+
+		if (!(new File(destination+"/double")).exists()) {
+			boolean success = (new File(destination+"/double")).mkdir();
+			if (!success) {
+				System.out.println("Fail to Create Output Double Directory!");
+				System.exit(1);
+			}
+		}
+		
+		String fileName = null;
+		PrintWriter out = null;
+		// Step 1: Output the class variable function.
+		fileName = destination + "/" + _classEmpiricalCounts._var.getName()
+				+ ".csv";
+		out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(
+				new FileOutputStream(fileName), "UTF8")));
+		_classEmpiricalCounts.saveAsCSV(out);
+		out.close();
+
+		// Step 2: Output the Class-OneVar Combination to Destination/single
+		for (Function2D func : _classOneVarCounts) {
+			fileName = destination + "/single/" + func._x.getName() + "-"
+					+ func._y.getName() + ".csv";
+			out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(
+					new FileOutputStream(fileName), "UTF8")));
+			func.saveAsCSV(out);
+			// Output MI also.
+			out.println("MI," + func.computeMI());
+			out.flush();
+			out.close();
+		}
+
+		// Step 3: Output the OneVar-Class-OneVar combination Destination/double
+		for (Function3D func : _classTwoVarCounts) {
+			
+			fileName = destination + "/double/" + func._f0._x.getName() + "-"
+					+ func._f0._y.getName() + ".csv";
+			out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(
+					new FileOutputStream(fileName), "UTF8")));
+			func.saveAsCSV(out);
+			// Output MI also.
+			out.println("CMI," + func.computeCMI());
+			out.flush();
+			out.close();
+		}
+	}
+
+	/**
+	 * update the empirical counts by adding the observations in the file.
+	 * 
+	 * @param fileName
+	 */
+	public void addObservations(String fileName) throws IOException {
+		// Read Line
+		BufferedReader br = new BufferedReader(new FileReader(fileName));
+		String s;
+		while ((s = br.readLine()) != null) {
+			// label=0 A=0 B=0 2
+			String[] result = s.split("\\t");
+			// count = 2.0
+			double count = Double.parseDouble(result[1]);
+			// assign = ("label=0" "A=0" "B=0")
+			String[] assign = result[0].split("\\s");
+			String[] varName = new String[assign.length];
+			String[] stateName = new String[assign.length];
+			for (int i = 0; i < assign.length; i++) {
+				String[] var2value = assign[i].split("=");
+				varName[i] = var2value[0];
+				stateName[i] = var2value[1];
+			}
+			
+			// If there is missing value in this assignment, ignore it.
+			boolean ignore = false;
+			for (int i = 0; i < stateName.length; i++) {
+				if (stateName[i].equalsIgnoreCase("unknown")
+						|| stateName[i].equalsIgnoreCase("\\N")
+						|| stateName[i].equalsIgnoreCase("NULL")) {
+					ignore = true;
+					break;
+				}
+			}
+			if (ignore)
+				continue;
+
+			// Add empirical count (var2values,count) to appropriate function.
+			if (assign.length == 1) {
+				// In this case, the only variable must be the class variable.
+				// We update its state.
+				_classEmpiricalCounts.addCell(stateName[0], count);
+			} else if (assign.length == 2) {
+				//System.out.println("" + varName[0] + "  " + varName[1]);
+				
+				Function2D func = function2DFinder(varName[0], varName[1]);
+				// Update
+				func.addCell(stateName[0], stateName[1], count);
+			} else if (assign.length == 3) {
+				Function3D func = function3DFinder(varName[1], varName[2]);
+				// update
+				func.addCell(stateName[0], stateName[1], stateName[2], count);
+			} else {
+				System.out
+						.println("There are some thing wrong with the empirical counts update");
+				System.exit(2);
+			}
+
+		}
+	}
+	
+public static Reporter getReporterTest() throws IOException {
+		// First read variabls from somewhere;
+		// 1 Read DataHeader
+		// DataHeader header = new DataHeader(new String[] { "var_state.txt" });
+		// 2 Read File of statistics: Label; X; Y variables.
+		Variable classVar = new Variable("is_click");
+		classVar.addState("0");
+		classVar.addState("1");
+		Variable A = new Variable("A");
+		A.addState("0");
+		A.addState("1");
+		A.addState("2");
+		Variable B = new Variable("B");
+		B.addState("0");
+		B.addState("1");
+		B.addState("2");
+		B.addState("3");
+		ArrayList<Variable> appVars = new ArrayList<Variable>();
+		appVars.add(A);
+		ArrayList<Variable> adVars = new ArrayList<Variable>();
+		adVars.add(B);
+
+		// construct the reporter. The reporter constructor automatically build
+		// the containers for containing the empirical counts needed.
+		Reporter rep = new Reporter(classVar, appVars, adVars);
+
+		// add new observation to update the reporter
+		rep.addObservations("suffStat");
+
+		// output the aggregated statistics
+		rep.output();
+		return rep;
+	}
+}

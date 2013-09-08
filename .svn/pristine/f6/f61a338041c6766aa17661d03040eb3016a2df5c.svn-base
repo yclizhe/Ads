@@ -1,0 +1,84 @@
+package com.renrengame.bigdata.util;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.StringTokenizer;
+
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.Mapper.Context;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+
+
+public class NBModelTestJob {
+
+	NBModel model;
+	static class DataMapper  extends Mapper<LongWritable, Text, Text, Text> {
+		public void map(LongWritable key, Text value, Context context) 
+				throws IOException, InterruptedException {
+			//NBInstance instance = 
+		}
+		protected void setup(Context context){
+			
+		}
+	}
+	
+	static class DataReducer extends Reducer<Text,Text, Text, Text >{
+		public void reduce(Text key, Iterable<Text> values, Context context) 
+				throws IOException, InterruptedException {
+		
+		}
+	
+	}
+	
+	static class DataCombiner extends Reducer<Text,Text, Text, Text >{
+		public void reduce(Text key, Iterable<Text> values, Context context) 
+				throws IOException, InterruptedException {
+			HashSet<String> set = new HashSet<String>();
+			for(Text value :values)
+				if(set.add(value.toString()))
+					context.write(key, value);		
+		}
+	}
+	
+	public static void main (String [] args) throws Exception {
+//		JobConf conf = new JobConf();    
+//		conf.set("fs.default.name", "hdfs://zli:9000");  
+//		conf.set("hadoop.job.user", "hadoop");  
+//		conf.set("mapred.job.tracker", "zli:9001");  
+//		conf.setMapperClass(DadaMapper.class);
+//		conf.setReducerClass(DataReducer.class);
+		
+//		Configuration conf = new Configuration();    
+//		conf.set("fs.default.name", "hdfs://zli:9000");  
+//		conf.set("hadoop.job.user", "hadoop");  		  
+//		conf.set("mapred.job.tracker", "zli:9001");
+		
+		Job job = new Job(); 
+		job.setJarByClass(NBModelTestJob.class);
+		job.getConfiguration().set("fs.default.name", "hdfs://h2-1/");  
+		job.getConfiguration().set("hadoop.job.user", "hadoop");  		  
+		job.getConfiguration().set("mapred.job.tracker", "h2-1:8030");
+		FileInputFormat.addInputPath(job, new Path(args[0]));
+		FileOutputFormat.setOutputPath(job, new Path(args[1]));
+		FileSystem hdfs = FileSystem.get(job.getConfiguration());
+		
+		hdfs.open(f)
+		
+		job.setMapperClass(DataMapper.class);
+		job.setReducerClass(DataReducer.class);
+		job.setCombinerClass(DataCombiner.class);
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(Text.class);
+		job.setNumReduceTasks(10);
+		
+		System.exit(job.waitForCompletion(true) ? 0 : 1);
+		
+	}
+}

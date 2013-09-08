@@ -1,0 +1,199 @@
+/**
+ * DataSet.java 
+ * Copyright (C) 2006 Tao Chen, Kin Man Poon, Yi Wang, and Nevin L. Zhang
+ */
+package com.renrengame.bigdata.util;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.io.StreamTokenizer;
+import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.StringTokenizer;
+
+/**
+ * This class provides an implementation for data header, i.e, variable list
+ * used in the domain
+ * 
+ * @author Tao Chen
+ * 
+ */
+public final class DataHeader {
+
+	public static void main(String args[]) throws IOException {
+		String[] dataHeaderFiles = new String[2];
+		dataHeaderFiles[0] = "var_state_20120701.txt";
+		dataHeaderFiles[1] = "var_state_20120702.txt";
+
+		// Construct the DataHeaders from the files
+		DataHeader header = new DataHeader(dataHeaderFiles);
+
+		// Output the combined DataHeaders to some file
+		header.save("var_state_twodays.txt");
+
+	}
+
+	/**
+	 * the array of variables involved in this data header.
+	 */
+	private Variable[] _variables;
+
+	/**
+	 * Returns the dimension, namely, the number of variables, of this data set.
+	 * 
+	 * @return the dimension of this data set.
+	 */
+	public int getDimension() {
+		return _variables.length;
+	}
+
+	/**
+	 * Returns the array of variables involved in this data set.
+	 * 
+	 * @return the array of variables involved in this data set.
+	 */
+	public Variable[] getVariables() {
+		return _variables;
+	}
+
+	/**
+	 * Return the variable specified by the name
+	 * @param name
+	 * @return
+	 */
+	public Variable getVar(String name){
+		for(Variable var : _variables){
+			if(var.getName().equalsIgnoreCase(name))
+				return var;
+		} 
+		return null;
+	}
+	
+	/**
+	 * Find the class variable from the data header
+	 */
+	public Variable findClassVariable() {
+		Variable var = null;
+		for (int i = 0; i < _variables.length; i++) {
+			if (_variables[i].isClassVar()) {
+				var = _variables[i];
+				break;
+			}
+		}
+		return var;
+	}
+
+	/**
+	 * Find the App vars from the data header
+	 * @return
+	 */
+	public ArrayList<Variable> findAppVariables(){
+		ArrayList<Variable> vars = new ArrayList<Variable>();
+		for (int i = 0; i < _variables.length; i++) {
+			if (_variables[i].isAppVar()) {
+				vars.add(_variables[i]);
+			}
+		}
+		return vars;
+	}
+	
+	/**
+	 * Find the Ad vars from the data header
+	 * @return
+	 */
+	public ArrayList<Variable> findAdVariables(){
+		ArrayList<Variable> vars = new ArrayList<Variable>();
+		for (int i = 0; i < _variables.length; i++) {
+			if (_variables[i].isAdVar()) {
+				vars.add(_variables[i]);
+			}
+		}
+		return vars;
+	}
+	/**
+	 * 
+	 * 
+	 * Constructs a data header defined by the specified data file.
+	 * 
+	 * @param files
+	 *            The name of the specified data header files.
+	 * @throws IOException
+	 *             if an I/O error occurs.
+	 */
+	public DataHeader(String[] files) throws IOException {
+		// reads variables
+		ArrayList<Variable> variables = new ArrayList<Variable>();
+
+		for (int i = 0; i < files.length; i++) {
+			BufferedReader br = new BufferedReader(new FileReader(files[i]));
+			String s;
+			while ((s = br.readLine()) != null) {
+				// Ingore the ":" and then delimitered by any space.
+				String[] result = s.replace(":", "").split("\\s");
+				assert result.length > 1;
+
+				// First is the name of the variable
+				Variable var = null;
+				for (Variable v : variables) {
+					if (result[0].equals(v.getName())) {
+						var = v;
+						break;
+					}
+				}
+				if (var == null) {
+					var = new Variable(result[0]);
+					variables.add(var);
+				}
+				for (int j = 1; j < result.length; j++) {
+					var.addState(result[j]);
+				}
+			}
+		}
+		_variables = variables.toArray(new Variable[variables.size()]);
+	}
+
+	/**
+	 * Outputs this data header to the specified file.
+	 * 
+	 * @param file
+	 *            output of this data header.
+	 * @throws FileNotFoundException
+	 *             if the file exists but is a directory rather than a regular
+	 *             file, does not exist but cannot be created, or cannot be
+	 *             opened for any other reason.
+	 * @throws UnsupportedEncodingException
+	 */
+	public void save(String file) throws FileNotFoundException,
+			UnsupportedEncodingException {
+		PrintWriter out = new PrintWriter(new BufferedWriter(
+				new OutputStreamWriter(new FileOutputStream(file), "UTF8")));
+
+		// outputs variables
+		for (Variable variable : _variables) {
+			// variable name
+			out.printf(variable.getName() + ":");
+
+			// state names
+			for (String state : variable.getStates()) {
+				out.print(" " + state);
+			}
+			out.println();
+		}
+		out.println();
+		out.close();
+	}
+}

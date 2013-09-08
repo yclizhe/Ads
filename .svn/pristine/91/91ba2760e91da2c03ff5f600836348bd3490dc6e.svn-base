@@ -1,0 +1,42 @@
+package com.renrengame.bigdata.util;
+
+import java.util.ArrayList;
+
+public class NBInstance extends Instance{
+	
+//	private static String[] _AttributeSet = { "shw::ssnid",  "is_click",  "log_version",  "Req_Day",  "Req_Time",  
+//		"app_id",  "cp_id",  "terminal_type",  "os",  "sdk_type",  "sdk_version",  "oper_company",  "net_type",  
+//		"ad_size",  "is_henping",  "is_broke",  "app_type_1",  "app_type_2",  "app_type_3",  "app_type_4",  "app_type_5",  "app_type_6",  
+//		"app_type_7",  "app_type_8",  "app_type_9",  "app_type_10",  "app_type_11",  "app_type_12",  "app_type_13",  "app_type_14", 
+//		"app_type_15",  "app_type_16",  "app_type_17",  "app_type_18",  "app_type_19",  "app_type_20",  "app_type_21",  
+//		"province",  "app_createTime",  "app_updateTime",  "ad_id",  "ad_group_id",  "ad_owner",  "ad_activity",  "showType", 
+//		"deviceType",  "clickAction",  "ad_createTime",  "ad_updateTime"};
+	
+	
+	public NBInstance() {
+		// Initialize the _vars according to config file of this NBModel (NBModel.conf)
+		setVars("NBModel.conf");
+	}
+	
+	/**
+	 * parse one line in the original data file to an instance of NBModel
+	 */
+	public boolean parse(String line) {
+		String [] words = line.split("\t");
+		if(words.length != _vars.size())
+			return false;
+		for(int i=0; i<words.length; i++)
+			_states.add(words[i]);
+		return true;
+	}
+	
+	public static void main(String[] args) {
+		//test 
+		NBInstance instance = new NBInstance();
+		ArrayList<Variable> list = instance.getVars();
+		for(Variable v : list)
+			System.out.println(v);
+		System.out.println(list.size());
+	}
+
+}

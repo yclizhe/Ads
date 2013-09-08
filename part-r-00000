@@ -1,0 +1,1392 @@
+label=0	12
+label=0 Req_Day=1	6
+label=0 Req_Day=1 ad_activity=30	6
+label=0 Req_Day=1 ad_createTime=4	6
+label=0 Req_Day=1 ad_group_id=77	6
+label=0 Req_Day=1 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 Req_Day=1 ad_owner=14	6
+label=0 Req_Day=1 ad_updateTime=2	6
+label=0 Req_Day=1 clickAction=3	6
+label=0 Req_Day=1 deviceType=2	6
+label=0 Req_Day=1 showType=1	6
+label=0 Req_Day=2	6
+label=0 Req_Day=2 ad_activity=42	6
+label=0 Req_Day=2 ad_createTime=4	6
+label=0 Req_Day=2 ad_group_id=31	6
+label=0 Req_Day=2 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 Req_Day=2 ad_owner=14	6
+label=0 Req_Day=2 ad_updateTime=1	6
+label=0 Req_Day=2 clickAction=2	6
+label=0 Req_Day=2 deviceType=1	6
+label=0 Req_Day=2 showType=1	6
+label=0 Req_Time=1	12
+label=0 Req_Time=1 ad_activity=30	6
+label=0 Req_Time=1 ad_activity=42	6
+label=0 Req_Time=1 ad_createTime=4	12
+label=0 Req_Time=1 ad_group_id=31	6
+label=0 Req_Time=1 ad_group_id=77	6
+label=0 Req_Time=1 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 Req_Time=1 ad_owner=14	12
+label=0 Req_Time=1 ad_updateTime=1	6
+label=0 Req_Time=1 ad_updateTime=2	6
+label=0 Req_Time=1 clickAction=2	6
+label=0 Req_Time=1 clickAction=3	6
+label=0 Req_Time=1 deviceType=1	6
+label=0 Req_Time=1 deviceType=2	6
+label=0 Req_Time=1 showType=1	12
+label=0 SDK_type=1	12
+label=0 SDK_type=1 ad_activity=30	6
+label=0 SDK_type=1 ad_activity=42	6
+label=0 SDK_type=1 ad_createTime=4	12
+label=0 SDK_type=1 ad_group_id=31	6
+label=0 SDK_type=1 ad_group_id=77	6
+label=0 SDK_type=1 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 SDK_type=1 ad_owner=14	12
+label=0 SDK_type=1 ad_updateTime=1	6
+label=0 SDK_type=1 ad_updateTime=2	6
+label=0 SDK_type=1 clickAction=2	6
+label=0 SDK_type=1 clickAction=3	6
+label=0 SDK_type=1 deviceType=1	6
+label=0 SDK_type=1 deviceType=2	6
+label=0 SDK_type=1 showType=1	12
+label=0 SDK_version=1.0.0	12
+label=0 SDK_version=1.0.0 ad_activity=30	6
+label=0 SDK_version=1.0.0 ad_activity=42	6
+label=0 SDK_version=1.0.0 ad_createTime=4	12
+label=0 SDK_version=1.0.0 ad_group_id=31	6
+label=0 SDK_version=1.0.0 ad_group_id=77	6
+label=0 SDK_version=1.0.0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 SDK_version=1.0.0 ad_owner=14	12
+label=0 SDK_version=1.0.0 ad_updateTime=1	6
+label=0 SDK_version=1.0.0 ad_updateTime=2	6
+label=0 SDK_version=1.0.0 clickAction=2	6
+label=0 SDK_version=1.0.0 clickAction=3	6
+label=0 SDK_version=1.0.0 deviceType=1	6
+label=0 SDK_version=1.0.0 deviceType=2	6
+label=0 SDK_version=1.0.0 showType=1	12
+label=0 ad_activity=30	6
+label=0 ad_activity=42	6
+label=0 ad_createTime=4	12
+label=0 ad_group_id=31	6
+label=0 ad_group_id=77	6
+label=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 ad_owner=14	12
+label=0 ad_size=320x50	12
+label=0 ad_size=320x50 ad_activity=30	6
+label=0 ad_size=320x50 ad_activity=42	6
+label=0 ad_size=320x50 ad_createTime=4	12
+label=0 ad_size=320x50 ad_group_id=31	6
+label=0 ad_size=320x50 ad_group_id=77	6
+label=0 ad_size=320x50 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 ad_size=320x50 ad_owner=14	12
+label=0 ad_size=320x50 ad_updateTime=1	6
+label=0 ad_size=320x50 ad_updateTime=2	6
+label=0 ad_size=320x50 clickAction=2	6
+label=0 ad_size=320x50 clickAction=3	6
+label=0 ad_size=320x50 deviceType=1	6
+label=0 ad_size=320x50 deviceType=2	6
+label=0 ad_size=320x50 showType=1	12
+label=0 ad_updateTime=1	6
+label=0 ad_updateTime=2	6
+label=0 app_createTime=2	6
+label=0 app_createTime=2 ad_activity=42	6
+label=0 app_createTime=2 ad_createTime=4	6
+label=0 app_createTime=2 ad_group_id=31	6
+label=0 app_createTime=2 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_createTime=2 ad_owner=14	6
+label=0 app_createTime=2 ad_updateTime=1	6
+label=0 app_createTime=2 clickAction=2	6
+label=0 app_createTime=2 deviceType=1	6
+label=0 app_createTime=2 showType=1	6
+label=0 app_createTime=3	6
+label=0 app_createTime=3 ad_activity=30	6
+label=0 app_createTime=3 ad_createTime=4	6
+label=0 app_createTime=3 ad_group_id=77	6
+label=0 app_createTime=3 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_createTime=3 ad_owner=14	6
+label=0 app_createTime=3 ad_updateTime=2	6
+label=0 app_createTime=3 clickAction=3	6
+label=0 app_createTime=3 deviceType=2	6
+label=0 app_createTime=3 showType=1	6
+label=0 app_id=7b6b663bf36a4110939b23d14bd3b728	6
+label=0 app_id=7b6b663bf36a4110939b23d14bd3b728 ad_activity=42	6
+label=0 app_id=7b6b663bf36a4110939b23d14bd3b728 ad_createTime=4	6
+label=0 app_id=7b6b663bf36a4110939b23d14bd3b728 ad_group_id=31	6
+label=0 app_id=7b6b663bf36a4110939b23d14bd3b728 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_id=7b6b663bf36a4110939b23d14bd3b728 ad_owner=14	6
+label=0 app_id=7b6b663bf36a4110939b23d14bd3b728 ad_updateTime=1	6
+label=0 app_id=7b6b663bf36a4110939b23d14bd3b728 clickAction=2	6
+label=0 app_id=7b6b663bf36a4110939b23d14bd3b728 deviceType=1	6
+label=0 app_id=7b6b663bf36a4110939b23d14bd3b728 showType=1	6
+label=0 app_id=ee574a2ae6a0461ea232b252df676613	6
+label=0 app_id=ee574a2ae6a0461ea232b252df676613 ad_activity=30	6
+label=0 app_id=ee574a2ae6a0461ea232b252df676613 ad_createTime=4	6
+label=0 app_id=ee574a2ae6a0461ea232b252df676613 ad_group_id=77	6
+label=0 app_id=ee574a2ae6a0461ea232b252df676613 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_id=ee574a2ae6a0461ea232b252df676613 ad_owner=14	6
+label=0 app_id=ee574a2ae6a0461ea232b252df676613 ad_updateTime=2	6
+label=0 app_id=ee574a2ae6a0461ea232b252df676613 clickAction=3	6
+label=0 app_id=ee574a2ae6a0461ea232b252df676613 deviceType=2	6
+label=0 app_id=ee574a2ae6a0461ea232b252df676613 showType=1	6
+label=0 app_type_10=0	12
+label=0 app_type_10=0 ad_activity=30	6
+label=0 app_type_10=0 ad_activity=42	6
+label=0 app_type_10=0 ad_createTime=4	12
+label=0 app_type_10=0 ad_group_id=31	6
+label=0 app_type_10=0 ad_group_id=77	6
+label=0 app_type_10=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 app_type_10=0 ad_owner=14	12
+label=0 app_type_10=0 ad_updateTime=1	6
+label=0 app_type_10=0 ad_updateTime=2	6
+label=0 app_type_10=0 clickAction=2	6
+label=0 app_type_10=0 clickAction=3	6
+label=0 app_type_10=0 deviceType=1	6
+label=0 app_type_10=0 deviceType=2	6
+label=0 app_type_10=0 showType=1	12
+label=0 app_type_11=0	12
+label=0 app_type_11=0 ad_activity=30	6
+label=0 app_type_11=0 ad_activity=42	6
+label=0 app_type_11=0 ad_createTime=4	12
+label=0 app_type_11=0 ad_group_id=31	6
+label=0 app_type_11=0 ad_group_id=77	6
+label=0 app_type_11=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 app_type_11=0 ad_owner=14	12
+label=0 app_type_11=0 ad_updateTime=1	6
+label=0 app_type_11=0 ad_updateTime=2	6
+label=0 app_type_11=0 clickAction=2	6
+label=0 app_type_11=0 clickAction=3	6
+label=0 app_type_11=0 deviceType=1	6
+label=0 app_type_11=0 deviceType=2	6
+label=0 app_type_11=0 showType=1	12
+label=0 app_type_12=0	12
+label=0 app_type_12=0 ad_activity=30	6
+label=0 app_type_12=0 ad_activity=42	6
+label=0 app_type_12=0 ad_createTime=4	12
+label=0 app_type_12=0 ad_group_id=31	6
+label=0 app_type_12=0 ad_group_id=77	6
+label=0 app_type_12=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 app_type_12=0 ad_owner=14	12
+label=0 app_type_12=0 ad_updateTime=1	6
+label=0 app_type_12=0 ad_updateTime=2	6
+label=0 app_type_12=0 clickAction=2	6
+label=0 app_type_12=0 clickAction=3	6
+label=0 app_type_12=0 deviceType=1	6
+label=0 app_type_12=0 deviceType=2	6
+label=0 app_type_12=0 showType=1	12
+label=0 app_type_13=0	12
+label=0 app_type_13=0 ad_activity=30	6
+label=0 app_type_13=0 ad_activity=42	6
+label=0 app_type_13=0 ad_createTime=4	12
+label=0 app_type_13=0 ad_group_id=31	6
+label=0 app_type_13=0 ad_group_id=77	6
+label=0 app_type_13=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 app_type_13=0 ad_owner=14	12
+label=0 app_type_13=0 ad_updateTime=1	6
+label=0 app_type_13=0 ad_updateTime=2	6
+label=0 app_type_13=0 clickAction=2	6
+label=0 app_type_13=0 clickAction=3	6
+label=0 app_type_13=0 deviceType=1	6
+label=0 app_type_13=0 deviceType=2	6
+label=0 app_type_13=0 showType=1	12
+label=0 app_type_14=0	12
+label=0 app_type_14=0 ad_activity=30	6
+label=0 app_type_14=0 ad_activity=42	6
+label=0 app_type_14=0 ad_createTime=4	12
+label=0 app_type_14=0 ad_group_id=31	6
+label=0 app_type_14=0 ad_group_id=77	6
+label=0 app_type_14=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 app_type_14=0 ad_owner=14	12
+label=0 app_type_14=0 ad_updateTime=1	6
+label=0 app_type_14=0 ad_updateTime=2	6
+label=0 app_type_14=0 clickAction=2	6
+label=0 app_type_14=0 clickAction=3	6
+label=0 app_type_14=0 deviceType=1	6
+label=0 app_type_14=0 deviceType=2	6
+label=0 app_type_14=0 showType=1	12
+label=0 app_type_15=0	6
+label=0 app_type_15=0 ad_activity=30	6
+label=0 app_type_15=0 ad_createTime=4	6
+label=0 app_type_15=0 ad_group_id=77	6
+label=0 app_type_15=0 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_type_15=0 ad_owner=14	6
+label=0 app_type_15=0 ad_updateTime=2	6
+label=0 app_type_15=0 clickAction=3	6
+label=0 app_type_15=0 deviceType=2	6
+label=0 app_type_15=0 showType=1	6
+label=0 app_type_15=1	6
+label=0 app_type_15=1 ad_activity=42	6
+label=0 app_type_15=1 ad_createTime=4	6
+label=0 app_type_15=1 ad_group_id=31	6
+label=0 app_type_15=1 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_type_15=1 ad_owner=14	6
+label=0 app_type_15=1 ad_updateTime=1	6
+label=0 app_type_15=1 clickAction=2	6
+label=0 app_type_15=1 deviceType=1	6
+label=0 app_type_15=1 showType=1	6
+label=0 app_type_16=0	12
+label=0 app_type_16=0 ad_activity=30	6
+label=0 app_type_16=0 ad_activity=42	6
+label=0 app_type_16=0 ad_createTime=4	12
+label=0 app_type_16=0 ad_group_id=31	6
+label=0 app_type_16=0 ad_group_id=77	6
+label=0 app_type_16=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 app_type_16=0 ad_owner=14	12
+label=0 app_type_16=0 ad_updateTime=1	6
+label=0 app_type_16=0 ad_updateTime=2	6
+label=0 app_type_16=0 clickAction=2	6
+label=0 app_type_16=0 clickAction=3	6
+label=0 app_type_16=0 deviceType=1	6
+label=0 app_type_16=0 deviceType=2	6
+label=0 app_type_16=0 showType=1	12
+label=0 app_type_17=0	12
+label=0 app_type_17=0 ad_activity=30	6
+label=0 app_type_17=0 ad_activity=42	6
+label=0 app_type_17=0 ad_createTime=4	12
+label=0 app_type_17=0 ad_group_id=31	6
+label=0 app_type_17=0 ad_group_id=77	6
+label=0 app_type_17=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 app_type_17=0 ad_owner=14	12
+label=0 app_type_17=0 ad_updateTime=1	6
+label=0 app_type_17=0 ad_updateTime=2	6
+label=0 app_type_17=0 clickAction=2	6
+label=0 app_type_17=0 clickAction=3	6
+label=0 app_type_17=0 deviceType=1	6
+label=0 app_type_17=0 deviceType=2	6
+label=0 app_type_17=0 showType=1	12
+label=0 app_type_18=0	6
+label=0 app_type_18=0 ad_activity=42	6
+label=0 app_type_18=0 ad_createTime=4	6
+label=0 app_type_18=0 ad_group_id=31	6
+label=0 app_type_18=0 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_type_18=0 ad_owner=14	6
+label=0 app_type_18=0 ad_updateTime=1	6
+label=0 app_type_18=0 clickAction=2	6
+label=0 app_type_18=0 deviceType=1	6
+label=0 app_type_18=0 showType=1	6
+label=0 app_type_18=1	6
+label=0 app_type_18=1 ad_activity=30	6
+label=0 app_type_18=1 ad_createTime=4	6
+label=0 app_type_18=1 ad_group_id=77	6
+label=0 app_type_18=1 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_type_18=1 ad_owner=14	6
+label=0 app_type_18=1 ad_updateTime=2	6
+label=0 app_type_18=1 clickAction=3	6
+label=0 app_type_18=1 deviceType=2	6
+label=0 app_type_18=1 showType=1	6
+label=0 app_type_19=0	12
+label=0 app_type_19=0 ad_activity=30	6
+label=0 app_type_19=0 ad_activity=42	6
+label=0 app_type_19=0 ad_createTime=4	12
+label=0 app_type_19=0 ad_group_id=31	6
+label=0 app_type_19=0 ad_group_id=77	6
+label=0 app_type_19=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 app_type_19=0 ad_owner=14	12
+label=0 app_type_19=0 ad_updateTime=1	6
+label=0 app_type_19=0 ad_updateTime=2	6
+label=0 app_type_19=0 clickAction=2	6
+label=0 app_type_19=0 clickAction=3	6
+label=0 app_type_19=0 deviceType=1	6
+label=0 app_type_19=0 deviceType=2	6
+label=0 app_type_19=0 showType=1	12
+label=0 app_type_1=0	12
+label=0 app_type_1=0 ad_activity=30	6
+label=0 app_type_1=0 ad_activity=42	6
+label=0 app_type_1=0 ad_createTime=4	12
+label=0 app_type_1=0 ad_group_id=31	6
+label=0 app_type_1=0 ad_group_id=77	6
+label=0 app_type_1=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 app_type_1=0 ad_owner=14	12
+label=0 app_type_1=0 ad_updateTime=1	6
+label=0 app_type_1=0 ad_updateTime=2	6
+label=0 app_type_1=0 clickAction=2	6
+label=0 app_type_1=0 clickAction=3	6
+label=0 app_type_1=0 deviceType=1	6
+label=0 app_type_1=0 deviceType=2	6
+label=0 app_type_1=0 showType=1	12
+label=0 app_type_20=0	12
+label=0 app_type_20=0 ad_activity=30	6
+label=0 app_type_20=0 ad_activity=42	6
+label=0 app_type_20=0 ad_createTime=4	12
+label=0 app_type_20=0 ad_group_id=31	6
+label=0 app_type_20=0 ad_group_id=77	6
+label=0 app_type_20=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 app_type_20=0 ad_owner=14	12
+label=0 app_type_20=0 ad_updateTime=1	6
+label=0 app_type_20=0 ad_updateTime=2	6
+label=0 app_type_20=0 clickAction=2	6
+label=0 app_type_20=0 clickAction=3	6
+label=0 app_type_20=0 deviceType=1	6
+label=0 app_type_20=0 deviceType=2	6
+label=0 app_type_20=0 showType=1	12
+label=0 app_type_21=0	6
+label=0 app_type_21=0 ad_activity=30	6
+label=0 app_type_21=0 ad_createTime=4	6
+label=0 app_type_21=0 ad_group_id=77	6
+label=0 app_type_21=0 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_type_21=0 ad_owner=14	6
+label=0 app_type_21=0 ad_updateTime=2	6
+label=0 app_type_21=0 clickAction=3	6
+label=0 app_type_21=0 deviceType=2	6
+label=0 app_type_21=0 showType=1	6
+label=0 app_type_21=1	6
+label=0 app_type_21=1 ad_activity=42	6
+label=0 app_type_21=1 ad_createTime=4	6
+label=0 app_type_21=1 ad_group_id=31	6
+label=0 app_type_21=1 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_type_21=1 ad_owner=14	6
+label=0 app_type_21=1 ad_updateTime=1	6
+label=0 app_type_21=1 clickAction=2	6
+label=0 app_type_21=1 deviceType=1	6
+label=0 app_type_21=1 showType=1	6
+label=0 app_type_2=0	6
+label=0 app_type_2=0 ad_activity=42	6
+label=0 app_type_2=0 ad_createTime=4	6
+label=0 app_type_2=0 ad_group_id=31	6
+label=0 app_type_2=0 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_type_2=0 ad_owner=14	6
+label=0 app_type_2=0 ad_updateTime=1	6
+label=0 app_type_2=0 clickAction=2	6
+label=0 app_type_2=0 deviceType=1	6
+label=0 app_type_2=0 showType=1	6
+label=0 app_type_2=1	6
+label=0 app_type_2=1 ad_activity=30	6
+label=0 app_type_2=1 ad_createTime=4	6
+label=0 app_type_2=1 ad_group_id=77	6
+label=0 app_type_2=1 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_type_2=1 ad_owner=14	6
+label=0 app_type_2=1 ad_updateTime=2	6
+label=0 app_type_2=1 clickAction=3	6
+label=0 app_type_2=1 deviceType=2	6
+label=0 app_type_2=1 showType=1	6
+label=0 app_type_3=0	12
+label=0 app_type_3=0 ad_activity=30	6
+label=0 app_type_3=0 ad_activity=42	6
+label=0 app_type_3=0 ad_createTime=4	12
+label=0 app_type_3=0 ad_group_id=31	6
+label=0 app_type_3=0 ad_group_id=77	6
+label=0 app_type_3=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 app_type_3=0 ad_owner=14	12
+label=0 app_type_3=0 ad_updateTime=1	6
+label=0 app_type_3=0 ad_updateTime=2	6
+label=0 app_type_3=0 clickAction=2	6
+label=0 app_type_3=0 clickAction=3	6
+label=0 app_type_3=0 deviceType=1	6
+label=0 app_type_3=0 deviceType=2	6
+label=0 app_type_3=0 showType=1	12
+label=0 app_type_4=0	6
+label=0 app_type_4=0 ad_activity=42	6
+label=0 app_type_4=0 ad_createTime=4	6
+label=0 app_type_4=0 ad_group_id=31	6
+label=0 app_type_4=0 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_type_4=0 ad_owner=14	6
+label=0 app_type_4=0 ad_updateTime=1	6
+label=0 app_type_4=0 clickAction=2	6
+label=0 app_type_4=0 deviceType=1	6
+label=0 app_type_4=0 showType=1	6
+label=0 app_type_4=1	6
+label=0 app_type_4=1 ad_activity=30	6
+label=0 app_type_4=1 ad_createTime=4	6
+label=0 app_type_4=1 ad_group_id=77	6
+label=0 app_type_4=1 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_type_4=1 ad_owner=14	6
+label=0 app_type_4=1 ad_updateTime=2	6
+label=0 app_type_4=1 clickAction=3	6
+label=0 app_type_4=1 deviceType=2	6
+label=0 app_type_4=1 showType=1	6
+label=0 app_type_5=0	6
+label=0 app_type_5=0 ad_activity=30	6
+label=0 app_type_5=0 ad_createTime=4	6
+label=0 app_type_5=0 ad_group_id=77	6
+label=0 app_type_5=0 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_type_5=0 ad_owner=14	6
+label=0 app_type_5=0 ad_updateTime=2	6
+label=0 app_type_5=0 clickAction=3	6
+label=0 app_type_5=0 deviceType=2	6
+label=0 app_type_5=0 showType=1	6
+label=0 app_type_5=1	6
+label=0 app_type_5=1 ad_activity=42	6
+label=0 app_type_5=1 ad_createTime=4	6
+label=0 app_type_5=1 ad_group_id=31	6
+label=0 app_type_5=1 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_type_5=1 ad_owner=14	6
+label=0 app_type_5=1 ad_updateTime=1	6
+label=0 app_type_5=1 clickAction=2	6
+label=0 app_type_5=1 deviceType=1	6
+label=0 app_type_5=1 showType=1	6
+label=0 app_type_6=0	12
+label=0 app_type_6=0 ad_activity=30	6
+label=0 app_type_6=0 ad_activity=42	6
+label=0 app_type_6=0 ad_createTime=4	12
+label=0 app_type_6=0 ad_group_id=31	6
+label=0 app_type_6=0 ad_group_id=77	6
+label=0 app_type_6=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 app_type_6=0 ad_owner=14	12
+label=0 app_type_6=0 ad_updateTime=1	6
+label=0 app_type_6=0 ad_updateTime=2	6
+label=0 app_type_6=0 clickAction=2	6
+label=0 app_type_6=0 clickAction=3	6
+label=0 app_type_6=0 deviceType=1	6
+label=0 app_type_6=0 deviceType=2	6
+label=0 app_type_6=0 showType=1	12
+label=0 app_type_7=0	12
+label=0 app_type_7=0 ad_activity=30	6
+label=0 app_type_7=0 ad_activity=42	6
+label=0 app_type_7=0 ad_createTime=4	12
+label=0 app_type_7=0 ad_group_id=31	6
+label=0 app_type_7=0 ad_group_id=77	6
+label=0 app_type_7=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 app_type_7=0 ad_owner=14	12
+label=0 app_type_7=0 ad_updateTime=1	6
+label=0 app_type_7=0 ad_updateTime=2	6
+label=0 app_type_7=0 clickAction=2	6
+label=0 app_type_7=0 clickAction=3	6
+label=0 app_type_7=0 deviceType=1	6
+label=0 app_type_7=0 deviceType=2	6
+label=0 app_type_7=0 showType=1	12
+label=0 app_type_8=0	12
+label=0 app_type_8=0 ad_activity=30	6
+label=0 app_type_8=0 ad_activity=42	6
+label=0 app_type_8=0 ad_createTime=4	12
+label=0 app_type_8=0 ad_group_id=31	6
+label=0 app_type_8=0 ad_group_id=77	6
+label=0 app_type_8=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 app_type_8=0 ad_owner=14	12
+label=0 app_type_8=0 ad_updateTime=1	6
+label=0 app_type_8=0 ad_updateTime=2	6
+label=0 app_type_8=0 clickAction=2	6
+label=0 app_type_8=0 clickAction=3	6
+label=0 app_type_8=0 deviceType=1	6
+label=0 app_type_8=0 deviceType=2	6
+label=0 app_type_8=0 showType=1	12
+label=0 app_type_9=0	12
+label=0 app_type_9=0 ad_activity=30	6
+label=0 app_type_9=0 ad_activity=42	6
+label=0 app_type_9=0 ad_createTime=4	12
+label=0 app_type_9=0 ad_group_id=31	6
+label=0 app_type_9=0 ad_group_id=77	6
+label=0 app_type_9=0 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 app_type_9=0 ad_owner=14	12
+label=0 app_type_9=0 ad_updateTime=1	6
+label=0 app_type_9=0 ad_updateTime=2	6
+label=0 app_type_9=0 clickAction=2	6
+label=0 app_type_9=0 clickAction=3	6
+label=0 app_type_9=0 deviceType=1	6
+label=0 app_type_9=0 deviceType=2	6
+label=0 app_type_9=0 showType=1	12
+label=0 app_updateTime=1	6
+label=0 app_updateTime=1 ad_activity=42	6
+label=0 app_updateTime=1 ad_createTime=4	6
+label=0 app_updateTime=1 ad_group_id=31	6
+label=0 app_updateTime=1 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_updateTime=1 ad_owner=14	6
+label=0 app_updateTime=1 ad_updateTime=1	6
+label=0 app_updateTime=1 clickAction=2	6
+label=0 app_updateTime=1 deviceType=1	6
+label=0 app_updateTime=1 showType=1	6
+label=0 app_updateTime=2	6
+label=0 app_updateTime=2 ad_activity=30	6
+label=0 app_updateTime=2 ad_createTime=4	6
+label=0 app_updateTime=2 ad_group_id=77	6
+label=0 app_updateTime=2 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 app_updateTime=2 ad_owner=14	6
+label=0 app_updateTime=2 ad_updateTime=2	6
+label=0 app_updateTime=2 clickAction=3	6
+label=0 app_updateTime=2 deviceType=2	6
+label=0 app_updateTime=2 showType=1	6
+label=0 clickAction=2	6
+label=0 clickAction=3	6
+label=0 cp_id=26	6
+label=0 cp_id=26 ad_activity=30	6
+label=0 cp_id=26 ad_createTime=4	6
+label=0 cp_id=26 ad_group_id=77	6
+label=0 cp_id=26 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 cp_id=26 ad_owner=14	6
+label=0 cp_id=26 ad_updateTime=2	6
+label=0 cp_id=26 clickAction=3	6
+label=0 cp_id=26 deviceType=2	6
+label=0 cp_id=26 showType=1	6
+label=0 cp_id=27	6
+label=0 cp_id=27 ad_activity=42	6
+label=0 cp_id=27 ad_createTime=4	6
+label=0 cp_id=27 ad_group_id=31	6
+label=0 cp_id=27 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 cp_id=27 ad_owner=14	6
+label=0 cp_id=27 ad_updateTime=1	6
+label=0 cp_id=27 clickAction=2	6
+label=0 cp_id=27 deviceType=1	6
+label=0 cp_id=27 showType=1	6
+label=0 deviceType=1	6
+label=0 deviceType=2	6
+label=0 is_broke=f	12
+label=0 is_broke=f ad_activity=30	6
+label=0 is_broke=f ad_activity=42	6
+label=0 is_broke=f ad_createTime=4	12
+label=0 is_broke=f ad_group_id=31	6
+label=0 is_broke=f ad_group_id=77	6
+label=0 is_broke=f ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 is_broke=f ad_owner=14	12
+label=0 is_broke=f ad_updateTime=1	6
+label=0 is_broke=f ad_updateTime=2	6
+label=0 is_broke=f clickAction=2	6
+label=0 is_broke=f clickAction=3	6
+label=0 is_broke=f deviceType=1	6
+label=0 is_broke=f deviceType=2	6
+label=0 is_broke=f showType=1	12
+label=0 is_henping=t	12
+label=0 is_henping=t ad_activity=30	6
+label=0 is_henping=t ad_activity=42	6
+label=0 is_henping=t ad_createTime=4	12
+label=0 is_henping=t ad_group_id=31	6
+label=0 is_henping=t ad_group_id=77	6
+label=0 is_henping=t ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 is_henping=t ad_owner=14	12
+label=0 is_henping=t ad_updateTime=1	6
+label=0 is_henping=t ad_updateTime=2	6
+label=0 is_henping=t clickAction=2	6
+label=0 is_henping=t clickAction=3	6
+label=0 is_henping=t deviceType=1	6
+label=0 is_henping=t deviceType=2	6
+label=0 is_henping=t showType=1	12
+label=0 log_version=2	12
+label=0 log_version=2 ad_activity=30	6
+label=0 log_version=2 ad_activity=42	6
+label=0 log_version=2 ad_createTime=4	12
+label=0 log_version=2 ad_group_id=31	6
+label=0 log_version=2 ad_group_id=77	6
+label=0 log_version=2 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 log_version=2 ad_owner=14	12
+label=0 log_version=2 ad_updateTime=1	6
+label=0 log_version=2 ad_updateTime=2	6
+label=0 log_version=2 clickAction=2	6
+label=0 log_version=2 clickAction=3	6
+label=0 log_version=2 deviceType=1	6
+label=0 log_version=2 deviceType=2	6
+label=0 log_version=2 showType=1	12
+label=0 net_type=WIFI	6
+label=0 net_type=WIFI ad_activity=30	6
+label=0 net_type=WIFI ad_createTime=4	6
+label=0 net_type=WIFI ad_group_id=77	6
+label=0 net_type=WIFI ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 net_type=WIFI ad_owner=14	6
+label=0 net_type=WIFI ad_updateTime=2	6
+label=0 net_type=WIFI clickAction=3	6
+label=0 net_type=WIFI deviceType=2	6
+label=0 net_type=WIFI showType=1	6
+label=0 net_type=WWAN	6
+label=0 net_type=WWAN ad_activity=42	6
+label=0 net_type=WWAN ad_createTime=4	6
+label=0 net_type=WWAN ad_group_id=31	6
+label=0 net_type=WWAN ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 net_type=WWAN ad_owner=14	6
+label=0 net_type=WWAN ad_updateTime=1	6
+label=0 net_type=WWAN clickAction=2	6
+label=0 net_type=WWAN deviceType=1	6
+label=0 net_type=WWAN showType=1	6
+label=0 oper_company=460-02	12
+label=0 oper_company=460-02 ad_activity=30	6
+label=0 oper_company=460-02 ad_activity=42	6
+label=0 oper_company=460-02 ad_createTime=4	12
+label=0 oper_company=460-02 ad_group_id=31	6
+label=0 oper_company=460-02 ad_group_id=77	6
+label=0 oper_company=460-02 ad_id=1795b14021ee47669a0e695089c49258	12
+label=0 oper_company=460-02 ad_owner=14	12
+label=0 oper_company=460-02 ad_updateTime=1	6
+label=0 oper_company=460-02 ad_updateTime=2	6
+label=0 oper_company=460-02 clickAction=2	6
+label=0 oper_company=460-02 clickAction=3	6
+label=0 oper_company=460-02 deviceType=1	6
+label=0 oper_company=460-02 deviceType=2	6
+label=0 oper_company=460-02 showType=1	12
+label=0 os=IOS5.0.1	6
+label=0 os=IOS5.0.1 ad_activity=30	6
+label=0 os=IOS5.0.1 ad_createTime=4	6
+label=0 os=IOS5.0.1 ad_group_id=77	6
+label=0 os=IOS5.0.1 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 os=IOS5.0.1 ad_owner=14	6
+label=0 os=IOS5.0.1 ad_updateTime=2	6
+label=0 os=IOS5.0.1 clickAction=3	6
+label=0 os=IOS5.0.1 deviceType=2	6
+label=0 os=IOS5.0.1 showType=1	6
+label=0 os=IOS5.1.1	6
+label=0 os=IOS5.1.1 ad_activity=42	6
+label=0 os=IOS5.1.1 ad_createTime=4	6
+label=0 os=IOS5.1.1 ad_group_id=31	6
+label=0 os=IOS5.1.1 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 os=IOS5.1.1 ad_owner=14	6
+label=0 os=IOS5.1.1 ad_updateTime=1	6
+label=0 os=IOS5.1.1 clickAction=2	6
+label=0 os=IOS5.1.1 deviceType=1	6
+label=0 os=IOS5.1.1 showType=1	6
+label=0 province=10	6
+label=0 province=10 ad_activity=42	6
+label=0 province=10 ad_createTime=4	6
+label=0 province=10 ad_group_id=31	6
+label=0 province=10 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 province=10 ad_owner=14	6
+label=0 province=10 ad_updateTime=1	6
+label=0 province=10 clickAction=2	6
+label=0 province=10 deviceType=1	6
+label=0 province=10 showType=1	6
+label=0 province=11	6
+label=0 province=11 ad_activity=30	6
+label=0 province=11 ad_createTime=4	6
+label=0 province=11 ad_group_id=77	6
+label=0 province=11 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 province=11 ad_owner=14	6
+label=0 province=11 ad_updateTime=2	6
+label=0 province=11 clickAction=3	6
+label=0 province=11 deviceType=2	6
+label=0 province=11 showType=1	6
+label=0 showType=1	12
+label=0 terminal_type=iPad2,1	6
+label=0 terminal_type=iPad2,1 ad_activity=42	6
+label=0 terminal_type=iPad2,1 ad_createTime=4	6
+label=0 terminal_type=iPad2,1 ad_group_id=31	6
+label=0 terminal_type=iPad2,1 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 terminal_type=iPad2,1 ad_owner=14	6
+label=0 terminal_type=iPad2,1 ad_updateTime=1	6
+label=0 terminal_type=iPad2,1 clickAction=2	6
+label=0 terminal_type=iPad2,1 deviceType=1	6
+label=0 terminal_type=iPad2,1 showType=1	6
+label=0 terminal_type=iPhone3,1	6
+label=0 terminal_type=iPhone3,1 ad_activity=30	6
+label=0 terminal_type=iPhone3,1 ad_createTime=4	6
+label=0 terminal_type=iPhone3,1 ad_group_id=77	6
+label=0 terminal_type=iPhone3,1 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 terminal_type=iPhone3,1 ad_owner=14	6
+label=0 terminal_type=iPhone3,1 ad_updateTime=2	6
+label=0 terminal_type=iPhone3,1 clickAction=3	6
+label=0 terminal_type=iPhone3,1 deviceType=2	6
+label=0 terminal_type=iPhone3,1 showType=1	6
+label=0 uuid2=c91a254c502ae40f77018419c8fdfa34	6
+label=0 uuid2=c91a254c502ae40f77018419c8fdfa34 ad_activity=30	6
+label=0 uuid2=c91a254c502ae40f77018419c8fdfa34 ad_createTime=4	6
+label=0 uuid2=c91a254c502ae40f77018419c8fdfa34 ad_group_id=77	6
+label=0 uuid2=c91a254c502ae40f77018419c8fdfa34 ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 uuid2=c91a254c502ae40f77018419c8fdfa34 ad_owner=14	6
+label=0 uuid2=c91a254c502ae40f77018419c8fdfa34 ad_updateTime=2	6
+label=0 uuid2=c91a254c502ae40f77018419c8fdfa34 clickAction=3	6
+label=0 uuid2=c91a254c502ae40f77018419c8fdfa34 deviceType=2	6
+label=0 uuid2=c91a254c502ae40f77018419c8fdfa34 showType=1	6
+label=0 uuid2=f8d825ff24d9332e4fc718a602b22e2c	6
+label=0 uuid2=f8d825ff24d9332e4fc718a602b22e2c ad_activity=42	6
+label=0 uuid2=f8d825ff24d9332e4fc718a602b22e2c ad_createTime=4	6
+label=0 uuid2=f8d825ff24d9332e4fc718a602b22e2c ad_group_id=31	6
+label=0 uuid2=f8d825ff24d9332e4fc718a602b22e2c ad_id=1795b14021ee47669a0e695089c49258	6
+label=0 uuid2=f8d825ff24d9332e4fc718a602b22e2c ad_owner=14	6
+label=0 uuid2=f8d825ff24d9332e4fc718a602b22e2c ad_updateTime=1	6
+label=0 uuid2=f8d825ff24d9332e4fc718a602b22e2c clickAction=2	6
+label=0 uuid2=f8d825ff24d9332e4fc718a602b22e2c deviceType=1	6
+label=0 uuid2=f8d825ff24d9332e4fc718a602b22e2c showType=1	6
+label=1	12
+label=1 Req_Day=6	12
+label=1 Req_Day=6 ad_activity=30	6
+label=1 Req_Day=6 ad_activity=32	6
+label=1 Req_Day=6 ad_createTime=3	12
+label=1 Req_Day=6 ad_group_id=51	6
+label=1 Req_Day=6 ad_group_id=77	6
+label=1 Req_Day=6 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 Req_Day=6 ad_owner=14	6
+label=1 Req_Day=6 ad_owner=170	6
+label=1 Req_Day=6 ad_updateTime=3	12
+label=1 Req_Day=6 clickAction=3	6
+label=1 Req_Day=6 clickAction=4	6
+label=1 Req_Day=6 deviceType=1	6
+label=1 Req_Day=6 deviceType=2	6
+label=1 Req_Day=6 showType=1	6
+label=1 Req_Day=6 showType=2	6
+label=1 Req_Time=1	6
+label=1 Req_Time=1 ad_activity=30	6
+label=1 Req_Time=1 ad_createTime=3	6
+label=1 Req_Time=1 ad_group_id=77	6
+label=1 Req_Time=1 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 Req_Time=1 ad_owner=14	6
+label=1 Req_Time=1 ad_updateTime=3	6
+label=1 Req_Time=1 clickAction=3	6
+label=1 Req_Time=1 deviceType=1	6
+label=1 Req_Time=1 showType=1	6
+label=1 Req_Time=3	6
+label=1 Req_Time=3 ad_activity=32	6
+label=1 Req_Time=3 ad_createTime=3	6
+label=1 Req_Time=3 ad_group_id=51	6
+label=1 Req_Time=3 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 Req_Time=3 ad_owner=170	6
+label=1 Req_Time=3 ad_updateTime=3	6
+label=1 Req_Time=3 clickAction=4	6
+label=1 Req_Time=3 deviceType=2	6
+label=1 Req_Time=3 showType=2	6
+label=1 SDK_type=1	6
+label=1 SDK_type=1 ad_activity=30	6
+label=1 SDK_type=1 ad_createTime=3	6
+label=1 SDK_type=1 ad_group_id=77	6
+label=1 SDK_type=1 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 SDK_type=1 ad_owner=14	6
+label=1 SDK_type=1 ad_updateTime=3	6
+label=1 SDK_type=1 clickAction=3	6
+label=1 SDK_type=1 deviceType=1	6
+label=1 SDK_type=1 showType=1	6
+label=1 SDK_type=2	6
+label=1 SDK_type=2 ad_activity=32	6
+label=1 SDK_type=2 ad_createTime=3	6
+label=1 SDK_type=2 ad_group_id=51	6
+label=1 SDK_type=2 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 SDK_type=2 ad_owner=170	6
+label=1 SDK_type=2 ad_updateTime=3	6
+label=1 SDK_type=2 clickAction=4	6
+label=1 SDK_type=2 deviceType=2	6
+label=1 SDK_type=2 showType=2	6
+label=1 SDK_version=1.0.2	12
+label=1 SDK_version=1.0.2 ad_activity=30	6
+label=1 SDK_version=1.0.2 ad_activity=32	6
+label=1 SDK_version=1.0.2 ad_createTime=3	12
+label=1 SDK_version=1.0.2 ad_group_id=51	6
+label=1 SDK_version=1.0.2 ad_group_id=77	6
+label=1 SDK_version=1.0.2 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 SDK_version=1.0.2 ad_owner=14	6
+label=1 SDK_version=1.0.2 ad_owner=170	6
+label=1 SDK_version=1.0.2 ad_updateTime=3	12
+label=1 SDK_version=1.0.2 clickAction=3	6
+label=1 SDK_version=1.0.2 clickAction=4	6
+label=1 SDK_version=1.0.2 deviceType=1	6
+label=1 SDK_version=1.0.2 deviceType=2	6
+label=1 SDK_version=1.0.2 showType=1	6
+label=1 SDK_version=1.0.2 showType=2	6
+label=1 ad_activity=30	6
+label=1 ad_activity=32	6
+label=1 ad_createTime=3	12
+label=1 ad_group_id=51	6
+label=1 ad_group_id=77	6
+label=1 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 ad_owner=14	6
+label=1 ad_owner=170	6
+label=1 ad_size=728x90	12
+label=1 ad_size=728x90 ad_activity=30	6
+label=1 ad_size=728x90 ad_activity=32	6
+label=1 ad_size=728x90 ad_createTime=3	12
+label=1 ad_size=728x90 ad_group_id=51	6
+label=1 ad_size=728x90 ad_group_id=77	6
+label=1 ad_size=728x90 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 ad_size=728x90 ad_owner=14	6
+label=1 ad_size=728x90 ad_owner=170	6
+label=1 ad_size=728x90 ad_updateTime=3	12
+label=1 ad_size=728x90 clickAction=3	6
+label=1 ad_size=728x90 clickAction=4	6
+label=1 ad_size=728x90 deviceType=1	6
+label=1 ad_size=728x90 deviceType=2	6
+label=1 ad_size=728x90 showType=1	6
+label=1 ad_size=728x90 showType=2	6
+label=1 ad_updateTime=3	12
+label=1 app_createTime=0	6
+label=1 app_createTime=0 ad_activity=32	6
+label=1 app_createTime=0 ad_createTime=3	6
+label=1 app_createTime=0 ad_group_id=51	6
+label=1 app_createTime=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_createTime=0 ad_owner=170	6
+label=1 app_createTime=0 ad_updateTime=3	6
+label=1 app_createTime=0 clickAction=4	6
+label=1 app_createTime=0 deviceType=2	6
+label=1 app_createTime=0 showType=2	6
+label=1 app_createTime=1	6
+label=1 app_createTime=1 ad_activity=30	6
+label=1 app_createTime=1 ad_createTime=3	6
+label=1 app_createTime=1 ad_group_id=77	6
+label=1 app_createTime=1 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_createTime=1 ad_owner=14	6
+label=1 app_createTime=1 ad_updateTime=3	6
+label=1 app_createTime=1 clickAction=3	6
+label=1 app_createTime=1 deviceType=1	6
+label=1 app_createTime=1 showType=1	6
+label=1 app_id=007c44f7f2a846cbab0edf8f7c79c9e5	6
+label=1 app_id=007c44f7f2a846cbab0edf8f7c79c9e5 ad_activity=30	6
+label=1 app_id=007c44f7f2a846cbab0edf8f7c79c9e5 ad_createTime=3	6
+label=1 app_id=007c44f7f2a846cbab0edf8f7c79c9e5 ad_group_id=77	6
+label=1 app_id=007c44f7f2a846cbab0edf8f7c79c9e5 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_id=007c44f7f2a846cbab0edf8f7c79c9e5 ad_owner=14	6
+label=1 app_id=007c44f7f2a846cbab0edf8f7c79c9e5 ad_updateTime=3	6
+label=1 app_id=007c44f7f2a846cbab0edf8f7c79c9e5 clickAction=3	6
+label=1 app_id=007c44f7f2a846cbab0edf8f7c79c9e5 deviceType=1	6
+label=1 app_id=007c44f7f2a846cbab0edf8f7c79c9e5 showType=1	6
+label=1 app_id=e760e3cbd93f47d5ba999b739db74c58	6
+label=1 app_id=e760e3cbd93f47d5ba999b739db74c58 ad_activity=32	6
+label=1 app_id=e760e3cbd93f47d5ba999b739db74c58 ad_createTime=3	6
+label=1 app_id=e760e3cbd93f47d5ba999b739db74c58 ad_group_id=51	6
+label=1 app_id=e760e3cbd93f47d5ba999b739db74c58 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_id=e760e3cbd93f47d5ba999b739db74c58 ad_owner=170	6
+label=1 app_id=e760e3cbd93f47d5ba999b739db74c58 ad_updateTime=3	6
+label=1 app_id=e760e3cbd93f47d5ba999b739db74c58 clickAction=4	6
+label=1 app_id=e760e3cbd93f47d5ba999b739db74c58 deviceType=2	6
+label=1 app_id=e760e3cbd93f47d5ba999b739db74c58 showType=2	6
+label=1 app_type_10=0	6
+label=1 app_type_10=0 ad_activity=30	6
+label=1 app_type_10=0 ad_createTime=3	6
+label=1 app_type_10=0 ad_group_id=77	6
+label=1 app_type_10=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_type_10=0 ad_owner=14	6
+label=1 app_type_10=0 ad_updateTime=3	6
+label=1 app_type_10=0 clickAction=3	6
+label=1 app_type_10=0 deviceType=1	6
+label=1 app_type_10=0 showType=1	6
+label=1 app_type_10=1	6
+label=1 app_type_10=1 ad_activity=32	6
+label=1 app_type_10=1 ad_createTime=3	6
+label=1 app_type_10=1 ad_group_id=51	6
+label=1 app_type_10=1 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_type_10=1 ad_owner=170	6
+label=1 app_type_10=1 ad_updateTime=3	6
+label=1 app_type_10=1 clickAction=4	6
+label=1 app_type_10=1 deviceType=2	6
+label=1 app_type_10=1 showType=2	6
+label=1 app_type_11=0	12
+label=1 app_type_11=0 ad_activity=30	6
+label=1 app_type_11=0 ad_activity=32	6
+label=1 app_type_11=0 ad_createTime=3	12
+label=1 app_type_11=0 ad_group_id=51	6
+label=1 app_type_11=0 ad_group_id=77	6
+label=1 app_type_11=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_11=0 ad_owner=14	6
+label=1 app_type_11=0 ad_owner=170	6
+label=1 app_type_11=0 ad_updateTime=3	12
+label=1 app_type_11=0 clickAction=3	6
+label=1 app_type_11=0 clickAction=4	6
+label=1 app_type_11=0 deviceType=1	6
+label=1 app_type_11=0 deviceType=2	6
+label=1 app_type_11=0 showType=1	6
+label=1 app_type_11=0 showType=2	6
+label=1 app_type_12=0	12
+label=1 app_type_12=0 ad_activity=30	6
+label=1 app_type_12=0 ad_activity=32	6
+label=1 app_type_12=0 ad_createTime=3	12
+label=1 app_type_12=0 ad_group_id=51	6
+label=1 app_type_12=0 ad_group_id=77	6
+label=1 app_type_12=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_12=0 ad_owner=14	6
+label=1 app_type_12=0 ad_owner=170	6
+label=1 app_type_12=0 ad_updateTime=3	12
+label=1 app_type_12=0 clickAction=3	6
+label=1 app_type_12=0 clickAction=4	6
+label=1 app_type_12=0 deviceType=1	6
+label=1 app_type_12=0 deviceType=2	6
+label=1 app_type_12=0 showType=1	6
+label=1 app_type_12=0 showType=2	6
+label=1 app_type_13=0	6
+label=1 app_type_13=0 ad_activity=32	6
+label=1 app_type_13=0 ad_createTime=3	6
+label=1 app_type_13=0 ad_group_id=51	6
+label=1 app_type_13=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_type_13=0 ad_owner=170	6
+label=1 app_type_13=0 ad_updateTime=3	6
+label=1 app_type_13=0 clickAction=4	6
+label=1 app_type_13=0 deviceType=2	6
+label=1 app_type_13=0 showType=2	6
+label=1 app_type_13=1	6
+label=1 app_type_13=1 ad_activity=30	6
+label=1 app_type_13=1 ad_createTime=3	6
+label=1 app_type_13=1 ad_group_id=77	6
+label=1 app_type_13=1 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_type_13=1 ad_owner=14	6
+label=1 app_type_13=1 ad_updateTime=3	6
+label=1 app_type_13=1 clickAction=3	6
+label=1 app_type_13=1 deviceType=1	6
+label=1 app_type_13=1 showType=1	6
+label=1 app_type_14=0	12
+label=1 app_type_14=0 ad_activity=30	6
+label=1 app_type_14=0 ad_activity=32	6
+label=1 app_type_14=0 ad_createTime=3	12
+label=1 app_type_14=0 ad_group_id=51	6
+label=1 app_type_14=0 ad_group_id=77	6
+label=1 app_type_14=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_14=0 ad_owner=14	6
+label=1 app_type_14=0 ad_owner=170	6
+label=1 app_type_14=0 ad_updateTime=3	12
+label=1 app_type_14=0 clickAction=3	6
+label=1 app_type_14=0 clickAction=4	6
+label=1 app_type_14=0 deviceType=1	6
+label=1 app_type_14=0 deviceType=2	6
+label=1 app_type_14=0 showType=1	6
+label=1 app_type_14=0 showType=2	6
+label=1 app_type_15=0	12
+label=1 app_type_15=0 ad_activity=30	6
+label=1 app_type_15=0 ad_activity=32	6
+label=1 app_type_15=0 ad_createTime=3	12
+label=1 app_type_15=0 ad_group_id=51	6
+label=1 app_type_15=0 ad_group_id=77	6
+label=1 app_type_15=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_15=0 ad_owner=14	6
+label=1 app_type_15=0 ad_owner=170	6
+label=1 app_type_15=0 ad_updateTime=3	12
+label=1 app_type_15=0 clickAction=3	6
+label=1 app_type_15=0 clickAction=4	6
+label=1 app_type_15=0 deviceType=1	6
+label=1 app_type_15=0 deviceType=2	6
+label=1 app_type_15=0 showType=1	6
+label=1 app_type_15=0 showType=2	6
+label=1 app_type_16=0	12
+label=1 app_type_16=0 ad_activity=30	6
+label=1 app_type_16=0 ad_activity=32	6
+label=1 app_type_16=0 ad_createTime=3	12
+label=1 app_type_16=0 ad_group_id=51	6
+label=1 app_type_16=0 ad_group_id=77	6
+label=1 app_type_16=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_16=0 ad_owner=14	6
+label=1 app_type_16=0 ad_owner=170	6
+label=1 app_type_16=0 ad_updateTime=3	12
+label=1 app_type_16=0 clickAction=3	6
+label=1 app_type_16=0 clickAction=4	6
+label=1 app_type_16=0 deviceType=1	6
+label=1 app_type_16=0 deviceType=2	6
+label=1 app_type_16=0 showType=1	6
+label=1 app_type_16=0 showType=2	6
+label=1 app_type_17=0	12
+label=1 app_type_17=0 ad_activity=30	6
+label=1 app_type_17=0 ad_activity=32	6
+label=1 app_type_17=0 ad_createTime=3	12
+label=1 app_type_17=0 ad_group_id=51	6
+label=1 app_type_17=0 ad_group_id=77	6
+label=1 app_type_17=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_17=0 ad_owner=14	6
+label=1 app_type_17=0 ad_owner=170	6
+label=1 app_type_17=0 ad_updateTime=3	12
+label=1 app_type_17=0 clickAction=3	6
+label=1 app_type_17=0 clickAction=4	6
+label=1 app_type_17=0 deviceType=1	6
+label=1 app_type_17=0 deviceType=2	6
+label=1 app_type_17=0 showType=1	6
+label=1 app_type_17=0 showType=2	6
+label=1 app_type_18=0	12
+label=1 app_type_18=0 ad_activity=30	6
+label=1 app_type_18=0 ad_activity=32	6
+label=1 app_type_18=0 ad_createTime=3	12
+label=1 app_type_18=0 ad_group_id=51	6
+label=1 app_type_18=0 ad_group_id=77	6
+label=1 app_type_18=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_18=0 ad_owner=14	6
+label=1 app_type_18=0 ad_owner=170	6
+label=1 app_type_18=0 ad_updateTime=3	12
+label=1 app_type_18=0 clickAction=3	6
+label=1 app_type_18=0 clickAction=4	6
+label=1 app_type_18=0 deviceType=1	6
+label=1 app_type_18=0 deviceType=2	6
+label=1 app_type_18=0 showType=1	6
+label=1 app_type_18=0 showType=2	6
+label=1 app_type_19=0	12
+label=1 app_type_19=0 ad_activity=30	6
+label=1 app_type_19=0 ad_activity=32	6
+label=1 app_type_19=0 ad_createTime=3	12
+label=1 app_type_19=0 ad_group_id=51	6
+label=1 app_type_19=0 ad_group_id=77	6
+label=1 app_type_19=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_19=0 ad_owner=14	6
+label=1 app_type_19=0 ad_owner=170	6
+label=1 app_type_19=0 ad_updateTime=3	12
+label=1 app_type_19=0 clickAction=3	6
+label=1 app_type_19=0 clickAction=4	6
+label=1 app_type_19=0 deviceType=1	6
+label=1 app_type_19=0 deviceType=2	6
+label=1 app_type_19=0 showType=1	6
+label=1 app_type_19=0 showType=2	6
+label=1 app_type_1=0	6
+label=1 app_type_1=0 ad_activity=30	6
+label=1 app_type_1=0 ad_createTime=3	6
+label=1 app_type_1=0 ad_group_id=77	6
+label=1 app_type_1=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_type_1=0 ad_owner=14	6
+label=1 app_type_1=0 ad_updateTime=3	6
+label=1 app_type_1=0 clickAction=3	6
+label=1 app_type_1=0 deviceType=1	6
+label=1 app_type_1=0 showType=1	6
+label=1 app_type_1=1	6
+label=1 app_type_1=1 ad_activity=32	6
+label=1 app_type_1=1 ad_createTime=3	6
+label=1 app_type_1=1 ad_group_id=51	6
+label=1 app_type_1=1 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_type_1=1 ad_owner=170	6
+label=1 app_type_1=1 ad_updateTime=3	6
+label=1 app_type_1=1 clickAction=4	6
+label=1 app_type_1=1 deviceType=2	6
+label=1 app_type_1=1 showType=2	6
+label=1 app_type_20=0	12
+label=1 app_type_20=0 ad_activity=30	6
+label=1 app_type_20=0 ad_activity=32	6
+label=1 app_type_20=0 ad_createTime=3	12
+label=1 app_type_20=0 ad_group_id=51	6
+label=1 app_type_20=0 ad_group_id=77	6
+label=1 app_type_20=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_20=0 ad_owner=14	6
+label=1 app_type_20=0 ad_owner=170	6
+label=1 app_type_20=0 ad_updateTime=3	12
+label=1 app_type_20=0 clickAction=3	6
+label=1 app_type_20=0 clickAction=4	6
+label=1 app_type_20=0 deviceType=1	6
+label=1 app_type_20=0 deviceType=2	6
+label=1 app_type_20=0 showType=1	6
+label=1 app_type_20=0 showType=2	6
+label=1 app_type_21=0	6
+label=1 app_type_21=0 ad_activity=30	6
+label=1 app_type_21=0 ad_createTime=3	6
+label=1 app_type_21=0 ad_group_id=77	6
+label=1 app_type_21=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_type_21=0 ad_owner=14	6
+label=1 app_type_21=0 ad_updateTime=3	6
+label=1 app_type_21=0 clickAction=3	6
+label=1 app_type_21=0 deviceType=1	6
+label=1 app_type_21=0 showType=1	6
+label=1 app_type_21=1	6
+label=1 app_type_21=1 ad_activity=32	6
+label=1 app_type_21=1 ad_createTime=3	6
+label=1 app_type_21=1 ad_group_id=51	6
+label=1 app_type_21=1 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_type_21=1 ad_owner=170	6
+label=1 app_type_21=1 ad_updateTime=3	6
+label=1 app_type_21=1 clickAction=4	6
+label=1 app_type_21=1 deviceType=2	6
+label=1 app_type_21=1 showType=2	6
+label=1 app_type_2=0	12
+label=1 app_type_2=0 ad_activity=30	6
+label=1 app_type_2=0 ad_activity=32	6
+label=1 app_type_2=0 ad_createTime=3	12
+label=1 app_type_2=0 ad_group_id=51	6
+label=1 app_type_2=0 ad_group_id=77	6
+label=1 app_type_2=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_2=0 ad_owner=14	6
+label=1 app_type_2=0 ad_owner=170	6
+label=1 app_type_2=0 ad_updateTime=3	12
+label=1 app_type_2=0 clickAction=3	6
+label=1 app_type_2=0 clickAction=4	6
+label=1 app_type_2=0 deviceType=1	6
+label=1 app_type_2=0 deviceType=2	6
+label=1 app_type_2=0 showType=1	6
+label=1 app_type_2=0 showType=2	6
+label=1 app_type_3=0	6
+label=1 app_type_3=0 ad_activity=32	6
+label=1 app_type_3=0 ad_createTime=3	6
+label=1 app_type_3=0 ad_group_id=51	6
+label=1 app_type_3=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_type_3=0 ad_owner=170	6
+label=1 app_type_3=0 ad_updateTime=3	6
+label=1 app_type_3=0 clickAction=4	6
+label=1 app_type_3=0 deviceType=2	6
+label=1 app_type_3=0 showType=2	6
+label=1 app_type_3=1	6
+label=1 app_type_3=1 ad_activity=30	6
+label=1 app_type_3=1 ad_createTime=3	6
+label=1 app_type_3=1 ad_group_id=77	6
+label=1 app_type_3=1 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_type_3=1 ad_owner=14	6
+label=1 app_type_3=1 ad_updateTime=3	6
+label=1 app_type_3=1 clickAction=3	6
+label=1 app_type_3=1 deviceType=1	6
+label=1 app_type_3=1 showType=1	6
+label=1 app_type_4=0	12
+label=1 app_type_4=0 ad_activity=30	6
+label=1 app_type_4=0 ad_activity=32	6
+label=1 app_type_4=0 ad_createTime=3	12
+label=1 app_type_4=0 ad_group_id=51	6
+label=1 app_type_4=0 ad_group_id=77	6
+label=1 app_type_4=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_4=0 ad_owner=14	6
+label=1 app_type_4=0 ad_owner=170	6
+label=1 app_type_4=0 ad_updateTime=3	12
+label=1 app_type_4=0 clickAction=3	6
+label=1 app_type_4=0 clickAction=4	6
+label=1 app_type_4=0 deviceType=1	6
+label=1 app_type_4=0 deviceType=2	6
+label=1 app_type_4=0 showType=1	6
+label=1 app_type_4=0 showType=2	6
+label=1 app_type_5=0	12
+label=1 app_type_5=0 ad_activity=30	6
+label=1 app_type_5=0 ad_activity=32	6
+label=1 app_type_5=0 ad_createTime=3	12
+label=1 app_type_5=0 ad_group_id=51	6
+label=1 app_type_5=0 ad_group_id=77	6
+label=1 app_type_5=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_5=0 ad_owner=14	6
+label=1 app_type_5=0 ad_owner=170	6
+label=1 app_type_5=0 ad_updateTime=3	12
+label=1 app_type_5=0 clickAction=3	6
+label=1 app_type_5=0 clickAction=4	6
+label=1 app_type_5=0 deviceType=1	6
+label=1 app_type_5=0 deviceType=2	6
+label=1 app_type_5=0 showType=1	6
+label=1 app_type_5=0 showType=2	6
+label=1 app_type_6=0	12
+label=1 app_type_6=0 ad_activity=30	6
+label=1 app_type_6=0 ad_activity=32	6
+label=1 app_type_6=0 ad_createTime=3	12
+label=1 app_type_6=0 ad_group_id=51	6
+label=1 app_type_6=0 ad_group_id=77	6
+label=1 app_type_6=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_6=0 ad_owner=14	6
+label=1 app_type_6=0 ad_owner=170	6
+label=1 app_type_6=0 ad_updateTime=3	12
+label=1 app_type_6=0 clickAction=3	6
+label=1 app_type_6=0 clickAction=4	6
+label=1 app_type_6=0 deviceType=1	6
+label=1 app_type_6=0 deviceType=2	6
+label=1 app_type_6=0 showType=1	6
+label=1 app_type_6=0 showType=2	6
+label=1 app_type_7=0	12
+label=1 app_type_7=0 ad_activity=30	6
+label=1 app_type_7=0 ad_activity=32	6
+label=1 app_type_7=0 ad_createTime=3	12
+label=1 app_type_7=0 ad_group_id=51	6
+label=1 app_type_7=0 ad_group_id=77	6
+label=1 app_type_7=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_7=0 ad_owner=14	6
+label=1 app_type_7=0 ad_owner=170	6
+label=1 app_type_7=0 ad_updateTime=3	12
+label=1 app_type_7=0 clickAction=3	6
+label=1 app_type_7=0 clickAction=4	6
+label=1 app_type_7=0 deviceType=1	6
+label=1 app_type_7=0 deviceType=2	6
+label=1 app_type_7=0 showType=1	6
+label=1 app_type_7=0 showType=2	6
+label=1 app_type_8=0	12
+label=1 app_type_8=0 ad_activity=30	6
+label=1 app_type_8=0 ad_activity=32	6
+label=1 app_type_8=0 ad_createTime=3	12
+label=1 app_type_8=0 ad_group_id=51	6
+label=1 app_type_8=0 ad_group_id=77	6
+label=1 app_type_8=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_8=0 ad_owner=14	6
+label=1 app_type_8=0 ad_owner=170	6
+label=1 app_type_8=0 ad_updateTime=3	12
+label=1 app_type_8=0 clickAction=3	6
+label=1 app_type_8=0 clickAction=4	6
+label=1 app_type_8=0 deviceType=1	6
+label=1 app_type_8=0 deviceType=2	6
+label=1 app_type_8=0 showType=1	6
+label=1 app_type_8=0 showType=2	6
+label=1 app_type_9=0	12
+label=1 app_type_9=0 ad_activity=30	6
+label=1 app_type_9=0 ad_activity=32	6
+label=1 app_type_9=0 ad_createTime=3	12
+label=1 app_type_9=0 ad_group_id=51	6
+label=1 app_type_9=0 ad_group_id=77	6
+label=1 app_type_9=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 app_type_9=0 ad_owner=14	6
+label=1 app_type_9=0 ad_owner=170	6
+label=1 app_type_9=0 ad_updateTime=3	12
+label=1 app_type_9=0 clickAction=3	6
+label=1 app_type_9=0 clickAction=4	6
+label=1 app_type_9=0 deviceType=1	6
+label=1 app_type_9=0 deviceType=2	6
+label=1 app_type_9=0 showType=1	6
+label=1 app_type_9=0 showType=2	6
+label=1 app_updateTime=0	6
+label=1 app_updateTime=0 ad_activity=32	6
+label=1 app_updateTime=0 ad_createTime=3	6
+label=1 app_updateTime=0 ad_group_id=51	6
+label=1 app_updateTime=0 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_updateTime=0 ad_owner=170	6
+label=1 app_updateTime=0 ad_updateTime=3	6
+label=1 app_updateTime=0 clickAction=4	6
+label=1 app_updateTime=0 deviceType=2	6
+label=1 app_updateTime=0 showType=2	6
+label=1 app_updateTime=1	6
+label=1 app_updateTime=1 ad_activity=30	6
+label=1 app_updateTime=1 ad_createTime=3	6
+label=1 app_updateTime=1 ad_group_id=77	6
+label=1 app_updateTime=1 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 app_updateTime=1 ad_owner=14	6
+label=1 app_updateTime=1 ad_updateTime=3	6
+label=1 app_updateTime=1 clickAction=3	6
+label=1 app_updateTime=1 deviceType=1	6
+label=1 app_updateTime=1 showType=1	6
+label=1 clickAction=3	6
+label=1 clickAction=4	6
+label=1 cp_id=26	6
+label=1 cp_id=26 ad_activity=32	6
+label=1 cp_id=26 ad_createTime=3	6
+label=1 cp_id=26 ad_group_id=51	6
+label=1 cp_id=26 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 cp_id=26 ad_owner=170	6
+label=1 cp_id=26 ad_updateTime=3	6
+label=1 cp_id=26 clickAction=4	6
+label=1 cp_id=26 deviceType=2	6
+label=1 cp_id=26 showType=2	6
+label=1 cp_id=27	6
+label=1 cp_id=27 ad_activity=30	6
+label=1 cp_id=27 ad_createTime=3	6
+label=1 cp_id=27 ad_group_id=77	6
+label=1 cp_id=27 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 cp_id=27 ad_owner=14	6
+label=1 cp_id=27 ad_updateTime=3	6
+label=1 cp_id=27 clickAction=3	6
+label=1 cp_id=27 deviceType=1	6
+label=1 cp_id=27 showType=1	6
+label=1 deviceType=1	6
+label=1 deviceType=2	6
+label=1 is_broke=f	6
+label=1 is_broke=f ad_activity=30	6
+label=1 is_broke=f ad_createTime=3	6
+label=1 is_broke=f ad_group_id=77	6
+label=1 is_broke=f ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 is_broke=f ad_owner=14	6
+label=1 is_broke=f ad_updateTime=3	6
+label=1 is_broke=f clickAction=3	6
+label=1 is_broke=f deviceType=1	6
+label=1 is_broke=f showType=1	6
+label=1 is_broke=t	6
+label=1 is_broke=t ad_activity=32	6
+label=1 is_broke=t ad_createTime=3	6
+label=1 is_broke=t ad_group_id=51	6
+label=1 is_broke=t ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 is_broke=t ad_owner=170	6
+label=1 is_broke=t ad_updateTime=3	6
+label=1 is_broke=t clickAction=4	6
+label=1 is_broke=t deviceType=2	6
+label=1 is_broke=t showType=2	6
+label=1 is_henping=f	6
+label=1 is_henping=f ad_activity=32	6
+label=1 is_henping=f ad_createTime=3	6
+label=1 is_henping=f ad_group_id=51	6
+label=1 is_henping=f ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 is_henping=f ad_owner=170	6
+label=1 is_henping=f ad_updateTime=3	6
+label=1 is_henping=f clickAction=4	6
+label=1 is_henping=f deviceType=2	6
+label=1 is_henping=f showType=2	6
+label=1 is_henping=t	6
+label=1 is_henping=t ad_activity=30	6
+label=1 is_henping=t ad_createTime=3	6
+label=1 is_henping=t ad_group_id=77	6
+label=1 is_henping=t ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 is_henping=t ad_owner=14	6
+label=1 is_henping=t ad_updateTime=3	6
+label=1 is_henping=t clickAction=3	6
+label=1 is_henping=t deviceType=1	6
+label=1 is_henping=t showType=1	6
+label=1 log_version=1	6
+label=1 log_version=1 ad_activity=32	6
+label=1 log_version=1 ad_createTime=3	6
+label=1 log_version=1 ad_group_id=51	6
+label=1 log_version=1 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 log_version=1 ad_owner=170	6
+label=1 log_version=1 ad_updateTime=3	6
+label=1 log_version=1 clickAction=4	6
+label=1 log_version=1 deviceType=2	6
+label=1 log_version=1 showType=2	6
+label=1 log_version=2	6
+label=1 log_version=2 ad_activity=30	6
+label=1 log_version=2 ad_createTime=3	6
+label=1 log_version=2 ad_group_id=77	6
+label=1 log_version=2 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 log_version=2 ad_owner=14	6
+label=1 log_version=2 ad_updateTime=3	6
+label=1 log_version=2 clickAction=3	6
+label=1 log_version=2 deviceType=1	6
+label=1 log_version=2 showType=1	6
+label=1 net_type=WWAN	12
+label=1 net_type=WWAN ad_activity=30	6
+label=1 net_type=WWAN ad_activity=32	6
+label=1 net_type=WWAN ad_createTime=3	12
+label=1 net_type=WWAN ad_group_id=51	6
+label=1 net_type=WWAN ad_group_id=77	6
+label=1 net_type=WWAN ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 net_type=WWAN ad_owner=14	6
+label=1 net_type=WWAN ad_owner=170	6
+label=1 net_type=WWAN ad_updateTime=3	12
+label=1 net_type=WWAN clickAction=3	6
+label=1 net_type=WWAN clickAction=4	6
+label=1 net_type=WWAN deviceType=1	6
+label=1 net_type=WWAN deviceType=2	6
+label=1 net_type=WWAN showType=1	6
+label=1 net_type=WWAN showType=2	6
+label=1 oper_company=460-01	6
+label=1 oper_company=460-01 ad_activity=30	6
+label=1 oper_company=460-01 ad_createTime=3	6
+label=1 oper_company=460-01 ad_group_id=77	6
+label=1 oper_company=460-01 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 oper_company=460-01 ad_owner=14	6
+label=1 oper_company=460-01 ad_updateTime=3	6
+label=1 oper_company=460-01 clickAction=3	6
+label=1 oper_company=460-01 deviceType=1	6
+label=1 oper_company=460-01 showType=1	6
+label=1 oper_company=MISSING	6
+label=1 oper_company=MISSING ad_activity=32	6
+label=1 oper_company=MISSING ad_createTime=3	6
+label=1 oper_company=MISSING ad_group_id=51	6
+label=1 oper_company=MISSING ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 oper_company=MISSING ad_owner=170	6
+label=1 oper_company=MISSING ad_updateTime=3	6
+label=1 oper_company=MISSING clickAction=4	6
+label=1 oper_company=MISSING deviceType=2	6
+label=1 oper_company=MISSING showType=2	6
+label=1 os=IOS5.1.1	12
+label=1 os=IOS5.1.1 ad_activity=30	6
+label=1 os=IOS5.1.1 ad_activity=32	6
+label=1 os=IOS5.1.1 ad_createTime=3	12
+label=1 os=IOS5.1.1 ad_group_id=51	6
+label=1 os=IOS5.1.1 ad_group_id=77	6
+label=1 os=IOS5.1.1 ad_id=99be55cb623f4fe7a99ef6421f954a45	12
+label=1 os=IOS5.1.1 ad_owner=14	6
+label=1 os=IOS5.1.1 ad_owner=170	6
+label=1 os=IOS5.1.1 ad_updateTime=3	12
+label=1 os=IOS5.1.1 clickAction=3	6
+label=1 os=IOS5.1.1 clickAction=4	6
+label=1 os=IOS5.1.1 deviceType=1	6
+label=1 os=IOS5.1.1 deviceType=2	6
+label=1 os=IOS5.1.1 showType=1	6
+label=1 os=IOS5.1.1 showType=2	6
+label=1 province=12	6
+label=1 province=12 ad_activity=30	6
+label=1 province=12 ad_createTime=3	6
+label=1 province=12 ad_group_id=77	6
+label=1 province=12 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 province=12 ad_owner=14	6
+label=1 province=12 ad_updateTime=3	6
+label=1 province=12 clickAction=3	6
+label=1 province=12 deviceType=1	6
+label=1 province=12 showType=1	6
+label=1 province=20	6
+label=1 province=20 ad_activity=32	6
+label=1 province=20 ad_createTime=3	6
+label=1 province=20 ad_group_id=51	6
+label=1 province=20 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 province=20 ad_owner=170	6
+label=1 province=20 ad_updateTime=3	6
+label=1 province=20 clickAction=4	6
+label=1 province=20 deviceType=2	6
+label=1 province=20 showType=2	6
+label=1 showType=1	6
+label=1 showType=2	6
+label=1 terminal_type=iPhone3,1	6
+label=1 terminal_type=iPhone3,1 ad_activity=30	6
+label=1 terminal_type=iPhone3,1 ad_createTime=3	6
+label=1 terminal_type=iPhone3,1 ad_group_id=77	6
+label=1 terminal_type=iPhone3,1 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 terminal_type=iPhone3,1 ad_owner=14	6
+label=1 terminal_type=iPhone3,1 ad_updateTime=3	6
+label=1 terminal_type=iPhone3,1 clickAction=3	6
+label=1 terminal_type=iPhone3,1 deviceType=1	6
+label=1 terminal_type=iPhone3,1 showType=1	6
+label=1 terminal_type=iPhone4,1	6
+label=1 terminal_type=iPhone4,1 ad_activity=32	6
+label=1 terminal_type=iPhone4,1 ad_createTime=3	6
+label=1 terminal_type=iPhone4,1 ad_group_id=51	6
+label=1 terminal_type=iPhone4,1 ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 terminal_type=iPhone4,1 ad_owner=170	6
+label=1 terminal_type=iPhone4,1 ad_updateTime=3	6
+label=1 terminal_type=iPhone4,1 clickAction=4	6
+label=1 terminal_type=iPhone4,1 deviceType=2	6
+label=1 terminal_type=iPhone4,1 showType=2	6
+label=1 uuid2=cc38f7d4234464b036be5597d571ea5a	6
+label=1 uuid2=cc38f7d4234464b036be5597d571ea5a ad_activity=32	6
+label=1 uuid2=cc38f7d4234464b036be5597d571ea5a ad_createTime=3	6
+label=1 uuid2=cc38f7d4234464b036be5597d571ea5a ad_group_id=51	6
+label=1 uuid2=cc38f7d4234464b036be5597d571ea5a ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 uuid2=cc38f7d4234464b036be5597d571ea5a ad_owner=170	6
+label=1 uuid2=cc38f7d4234464b036be5597d571ea5a ad_updateTime=3	6
+label=1 uuid2=cc38f7d4234464b036be5597d571ea5a clickAction=4	6
+label=1 uuid2=cc38f7d4234464b036be5597d571ea5a deviceType=2	6
+label=1 uuid2=cc38f7d4234464b036be5597d571ea5a showType=2	6
+label=1 uuid2=e3eb7ac7f24337b0dcb9f0bf01cdb5bd	6
+label=1 uuid2=e3eb7ac7f24337b0dcb9f0bf01cdb5bd ad_activity=30	6
+label=1 uuid2=e3eb7ac7f24337b0dcb9f0bf01cdb5bd ad_createTime=3	6
+label=1 uuid2=e3eb7ac7f24337b0dcb9f0bf01cdb5bd ad_group_id=77	6
+label=1 uuid2=e3eb7ac7f24337b0dcb9f0bf01cdb5bd ad_id=99be55cb623f4fe7a99ef6421f954a45	6
+label=1 uuid2=e3eb7ac7f24337b0dcb9f0bf01cdb5bd ad_owner=14	6
+label=1 uuid2=e3eb7ac7f24337b0dcb9f0bf01cdb5bd ad_updateTime=3	6
+label=1 uuid2=e3eb7ac7f24337b0dcb9f0bf01cdb5bd clickAction=3	6
+label=1 uuid2=e3eb7ac7f24337b0dcb9f0bf01cdb5bd deviceType=1	6
+label=1 uuid2=e3eb7ac7f24337b0dcb9f0bf01cdb5bd showType=1	6

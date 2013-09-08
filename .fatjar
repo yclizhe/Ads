@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Jan 07 16:20:04 CST 2013
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=NBModelJob.jar
+manifest.mergeall=true
+manifest.mainclass=com.renrengame.bigdata.util.NBModelTestJob
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

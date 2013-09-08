@@ -1,0 +1,8 @@
+log_version: 1 2 3
+req_Day: 1 2 3 7 4 5 6 76
+req_Time: 1 2 3 4 12
+ad_UpdataTime: 0 1 2
+class: 1 0
+ad_owner: dear da_dar
+clickAction: 1edad4dad dar 3
+
